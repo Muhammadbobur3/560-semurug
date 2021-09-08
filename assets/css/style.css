@@ -795,6 +795,12 @@ section {
   border: 1px solid #eef0ef;
 }
 
+.member-img {
+  width: 354px !important;
+  height: 354px !important;
+  object-fit: cover;
+}
+
 .trainers .member img {
   margin: -1px -1px 30px -1px;
 }
