@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  margin-top: 72px;
 }
 
 a {
@@ -783,6 +784,22 @@ section {
 .courses .trainer .trainer-rank {
   font-size: 18px;
   color: #657a6d;
+}
+
+.about-img-card {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.certificate {
+  transform: rotate(50px);
+}
+
+.text-right {
+  text-align: right;
+  align-items: flex-end;
 }
 
 /*--------------------------------------------------------------
