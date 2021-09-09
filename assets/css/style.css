@@ -1062,6 +1062,44 @@ section {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 767px) {
+  .about-my {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .about-col-7 {
+    width: 100% !important;
+    text-align: center;
+  }
+
+
+  .about-col-5 {
+    width: 100% !important;
+    order: -1;
+    margin-bottom: 40px;
+  }
+
+  .about-img-card {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    order: -2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-img-card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-slider {
+    height: 200px;
+  }
+}
+
 @media (max-width: 992px) {
   .cource-details-tabs .nav-link {
     border: 0;
